@@ -14,3 +14,21 @@ Now, there is another selfish interest, which is for me to understand how this w
 # What is in?
 Here i am trying to put up a flow together, which has bits and pieces which can be used for projects. 
 In short, you will find code snippets, sometimes modules, which you can copy paste in 
+
+
+# License Info
+
+Now, let me be very clear about this:
+If this piece of code, which i generally have copy pasted from various places, accidently (as i dont do anything intentionally) spills water on your keyboard, shows blue screen in windows, hangs your phone, destroys your data in your PC, informs your company about your bookmarks, shows your hidden files when you least expect it to, shows your porn history then dont blame me. Neither me or the code which i wrote is responsible for that.
+More seriously, if this program accidently kills you, hacks into governments data, makes you decide to marry, make you cry thinking about the decision, electrocutes your from battery shock, drowns you in 100 ml whiskey then dont blame me. 
+
+Now, this package uses certain libraries, frameworks which has its own licensing terms.
+
+/*
+ * ----------------------------------------------------------------------------
+ * "THE BEER-WARE LICENSE" (Revision 42):
+ * arun@dumparun.info wrote this file.  As long as you retain this notice you
+ * can do whatever you want with this stuff. If we meet some day, and you think
+ * this stuff is worth it, you can buy me a beer in return. arun@dumparun.info
+ * ----------------------------------------------------------------------------
+ */
