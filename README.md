@@ -15,6 +15,20 @@ Now, there is another selfish interest, which is for me to understand how this w
 Here i am trying to put up a flow together, which has bits and pieces which can be used for projects. 
 In short, you will find code snippets, sometimes modules, which you can copy paste in 
 
+The flow i follow is
+1. A splash screen which stays till all files are loaded, and gives a good startup feeling for the customer
+  (This explains how everything is put together)
+2. A Login Page, which allows you to enter a user id and password.
+  (This explains how data binding is done)
+3. Some data validation for user id and password
+  (Data validations and how an error can be displayed on screen)
+4. Hashing and salting of password
+  (Common usage for password validations)
+5. Connecting to REST (JSON) API to do user authentication
+  A standalone server written in PHP is used to achieve this. The server would expose REST ful API. There is no business       logic to this, the server responds with data.
+  This would help you understand how to connect to server and pass data, recieve data
+6. Display a home page -- to be continued
+
 
 # License Info
 
@@ -22,8 +36,17 @@ Now, let me be very clear about this:
 If this piece of code, which i generally have copy pasted from various places, accidently (as i dont do anything intentionally) spills water on your keyboard, shows blue screen in windows, hangs your phone, destroys your data in your PC, informs your company about your bookmarks, shows your hidden files when you least expect it to, shows your porn history then dont blame me. Neither me or the code which i wrote is responsible for that.
 More seriously, if this program accidently kills you, hacks into governments data, makes you decide to marry, make you cry thinking about the decision, electrocutes your from battery shock, drowns you in 100 ml whiskey then dont blame me. 
 
-Now, this package uses certain libraries, frameworks which has its own licensing terms.
+Now, this package uses certain libraries, frameworks which has its own licensing terms. Pleae follow those licensing information deligently and as usual please dont blame me for any consequences. You may need to hire a lawyer to understand those terms and conditions, and dont tell me, i didnt told so.
 
+Now, as far as my code goes, i follow the below licensing information
+
+In essence, i dont care what you do with this, or how you use it. Neither i take profit for it nor loss.
+
+Now, if we meet, and you feel this is worth it, you may buy me a beer @ http://www.dumparun.info/dumparun/
+If you feel otherwise that this is shit, you may tell me not to attempt this again after buying a beer @ http://www.dumparun.info/dumparun/
+
+
+http://en.wikipedia.org/wiki/Beerware
 /*
  * ----------------------------------------------------------------------------
  * "THE BEER-WARE LICENSE" (Revision 42):
