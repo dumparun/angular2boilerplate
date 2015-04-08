@@ -1,0 +1,19 @@
+{
+  "name": "rockingchair",
+  "version": "0.0.0.1",
+  "homepage": "https://github.com/dumparun/angular2boilerplate",
+  "main": "index.html",
+  "authors": [
+    "Arun"
+  ],
+  "license": "BEER-WARE",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "devDependencies": {
+    "requirejs": "~2.1.17",
+    "angular": "v1.3.15",
+    "angular-route": "v1.3.15"
+  }
+}

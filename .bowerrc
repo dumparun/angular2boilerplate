@@ -1,0 +1,6 @@
+{
+  "directory": "www_dev/lib",
+  "analytics": false,
+  "timeout": 40000,
+   "json": "bower.json"
+}
