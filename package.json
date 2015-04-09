@@ -1,6 +1,6 @@
 {
   "name": "rockingchair",
-  "version": "0.0.0.1",
+  "version": "0.0.1",
   "description": "Boiler plate code base for Angular JS",
   "main": "index.html",
   
@@ -17,6 +17,7 @@
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-sass": "^0.7.1",
+    "del": "^0.1.0",
     "gulp-uglify": "^0.1.0",
     "requirejs": "~2.1.11"
   }
