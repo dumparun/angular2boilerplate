@@ -1,4 +1,4 @@
-var requirejsConfig = {
+require.config({
     baseUrl : 'www_dev/',
     paths : {
 	'angular' : [ 'lib/angular/angular' ],
@@ -12,4 +12,8 @@ var requirejsConfig = {
 	    deps : [ 'angular' ]
 	}
     }
-};
+});
+
+require([ 'app/app' ], function(app) {
+    app.init();
+});
