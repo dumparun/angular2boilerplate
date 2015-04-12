@@ -1,25 +1,22 @@
-define([ 'angular', 'angular-route', 'app/controller/main-controller' ],
-	function(angular) {
-	    'use strict';
+define([ 'angular', 'angular-route' ], function(angular) {
+    'use strict';
 
-	    var app = angular.module('ng-boilerplate', [ 'ngRoute',
-		    'main-controller' ]);
+    var app = angular.module('app', [ 'ngRoute' ]);
 
-	    app.init = function() {
-		angular.bootstrap(document, [ 'ng-boilerplate' ]);
-	    };
+    app.init = function() {
+	angular.bootstrap(document, [ 'app' ]);
+    };
 
-	    app.config([ '$routeProvider', '$sceProvider', '$locationProvider',
-		    function($routeProvider, $sceProvider, $locationProvider) {
-			$routeProvider.when('/', {
-			    controller : 'MainController',
-			    templateUrl : 'www_dev/template/splash.htm'
-			}).otherwise({
-			    redirectTo : '/'
-			});
+    var appController = require([ 'app/controller/app-controller' ]);
 
-			$sceProvider.enabled(false);
-
-		    } ]);
-	    return app;
+    app.config([ '$routeProvider', 'AppController', function($routeProvider, appController) {
+	$routeProvider.when('/', {
+	    templateUrl : 'www_dev/template/splash.htm',
+	    controller : 'AppController'
+	}).otherwise({
+	    redirectTo : '/'
 	});
+
+    } ]);
+    return app;
+});

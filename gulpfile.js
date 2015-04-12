@@ -26,4 +26,4 @@ gulp.task('sass', function() {
     cssTask.pipe(gulp.dest('www_dev/css'));
 });
 
-gulp.task('default', [ 'cleanapp', 'sass', 'copyfiles' ]);
+gulp.task('default', [ 'sass', 'copyfiles' ]);
