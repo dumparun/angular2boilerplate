@@ -1,4 +1,5 @@
---- If you have reached here, sorry to disappoint you. This is work in progress--
+--- If you have reached here, sorry to disappoint you. This is work in progress 
+	Please keep checking --
 
 # angular2boilerplate
 This is a boiler plate code for providing a jump start for projects using angular 2.0 JS.
@@ -31,6 +32,9 @@ The flow i follow is
   This would help you understand how to connect to server and pass data, recieve data
 6. Display a home page -- to be continued
 
+
+#SETUP.MD
+Please read the file Set up for information on how to use Eclipse for development and how to set up Gulp, Bower etc.
 
 # License Info
 
