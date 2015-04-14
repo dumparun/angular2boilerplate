@@ -4,7 +4,9 @@ I like Eclipse and i use eclipse for development. The checked in Project can be 
 
 #Node NPM and GIT
 
-#Bower Installation
+#bower Installation
+
+#gulp Installation
 
 #npm install for rest of the dependancy
 
