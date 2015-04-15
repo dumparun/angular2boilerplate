@@ -1,9 +1,9 @@
 define([ 'angular' ], function(angular) {
-    'use strict';
+	'use strict';
 
-    var app = angular.module('app');
+	var appControllers = angular.module('app.controllers', []);
 
-    app.controller('AppController', [ '$scope', function($scope) {
-    
-    } ]);
+	appControllers.controller('HomeController', [ '$scope', function($scope) {
+		console.log("#");
+	} ]);
 });
